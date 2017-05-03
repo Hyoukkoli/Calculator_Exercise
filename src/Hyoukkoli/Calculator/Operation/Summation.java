@@ -2,8 +2,8 @@ package Hyoukkoli.Calculator.Operation;
 
 public class Summation extends Operations {
 
-    private double rightValue;
     private double leftValue;
+    private double rightValue;
 
     public Summation(double leftValue, double rightValue)
     {
