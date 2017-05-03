@@ -6,6 +6,9 @@ public class Division extends Operations{
     private double rightValue;
 
     public Division(double leftValue, double rightValue){
+        if (rightValue == 0){
+                throw new IllegalArgumentException("The value on the right side of the division must not be 0.");
+            }
         this.leftValue = leftValue;
         this.rightValue = rightValue;
     }

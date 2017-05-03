@@ -7,7 +7,7 @@ public class Root extends Operations{
 
     public Root (double basis, double root){
         if (basis < 0){
-            throw new IllegalArgumentException("The value of the basis has to be greater than 0.");
+            throw new IllegalArgumentException("The value of the basis has to be greater or equal 0.");
         }
         this.basis = basis;
         this.root = root;

@@ -15,14 +15,20 @@ public class Main {
         Multiplication mul = new Multiplication(48f, 5f);
         System.out.println(mul + " = " + mul.calculateMultiplication());
 
-        Division div = new Division(480, 5);
+        Division div = new Division(480, 0f);
         System.out.println(div + " = " + div.calculateDivision());
 
-        Power pow = new Power(4f, 5);
+        Power pow = new Power(4f, 5f);
         System.out.println(pow + " = " + pow.calculatePower());
 
-        Root root = new Root(5);
+        Root root = new Root(5f);
         System.out.println(root + " = " + root.calculateRoot());
+
+        Logarithm log = new Logarithm(25f, 10f);
+        System.out.println(log + " = " + log.calculateLogarithm());
+
+        Base2Logarithm log2 = new Base2Logarithm(25f);
+        System.out.println(log2 + " = " + log2.calculateBase2Logarithm());
 
     }
 
