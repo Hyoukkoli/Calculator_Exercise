@@ -1,10 +1,6 @@
-package Hyoukkoli.Calculator;
+package Hyoukkoli.Calculator.Operation;
 
 public class Operations{
-
-    public double result;
-
-
 
     public void examineCalculus(String problem){
         if (problem.contains("+")) {
@@ -23,7 +19,4 @@ public class Operations{
         }
     }
 
-    public double returnResult(){
-        return result;
-    }
 }
