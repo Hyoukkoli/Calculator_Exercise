@@ -30,6 +30,7 @@ public class Main {
         Base2Logarithm log2 = new Base2Logarithm(25f);
         System.out.println(log2 + " = " + log2.calculateBase2Logarithm());
 
+
     }
 
     
